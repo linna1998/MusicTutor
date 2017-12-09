@@ -64,7 +64,7 @@ public class Piper extends JFrame {
 	public Piper() {
 		this.setLayout(new BorderLayout());
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		this.setTitle("Pied Piper: Analyze your favorite songs!");
+		this.setTitle("Music Tutor: learning violin right now!");
 		myPlot = new UpdatePlot();
 		new Thread(myPlot).start();
 
